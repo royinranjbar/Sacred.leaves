@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Details</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .details-container {
+            background: #ffffff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            max-width: 400px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+        }
+        .details-container h1 {
+            font-size: 2rem;
+            color: #2575fc;
+            margin-bottom: 15px;
+        }
+        .details-container p {
+            margin: 10px 0;
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #555;
+        }
+        .details-container a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .details-container a:hover {
+            text-decoration: underline;
+        }
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 15px auto;
+            object-fit: cover;
+            border: 5px solid #2575fc;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+        }
+        .profile-photo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        .social-links a {
+            background: #ffffff;
+            border: 2px solid #2575fc;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #2575fc;
+            transition: all 0.3s ease;
+        }
+        .social-links a:hover {
+            background: #2575fc;
+            color: #ffffff;
+            transform: scale(1.1);
+        }
+        .social-links a img {
+            width: 24px;
+            height: 24px;
+        }
+	h4{
+	   margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="details-container">
+        <img src="Myself.jpg" alt="Profile Photo" class="profile-photo">
+        <h1>Aqueel Ahmad</h1>
+        <h4>CEO</h4>
+        <h4> Founder</h4>
+
+        <p><strong>Phone:</strong> +91 9971870058</p>
+        <p><strong>Email:</strong> <a href="mailto:Admin@Sacred-Leaves.com">Admin@Sacred-Leaves.com</a></p>
+        <p><strong>Company:</strong> SACRED LEAVES PVT. LTD.</p>
+        <p><strong>Address:</strong> Ground Floor, Gali Number 1, Govindpuri, New Delhi, Delhi 110019</p>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61567961710200" target="_blank" title="Facebook">
+                <img src="face.png" alt="Facebook">
+            </a>
+            <a href="https://x.com/SACREDLEAVESPVT" target="_blank" title="Twitter">
+                <img src="twit.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/company/sacred-leaves-pvt-ltd-health-wellness" target="_blank" title="LinkedIn">
+                <img src="link.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/sacredleavespvtltd/" target="_blank" title="Instagram">
+                <img src="insta.png" alt="Instagram">
+            </a>
+	    <a href="https://in.pinterest.com/idrees2764/?actingBusinessId=892346251075638110" target="_blank" title="Instagram">
+                <img src="pen.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
